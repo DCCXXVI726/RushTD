@@ -6,4 +6,6 @@ public abstract class Bullet {
     public abstract void move();
 
     public abstract boolean isHit();
+	
+	public abstract void explosion(ArrayList<Enemy> enemies);
 }
