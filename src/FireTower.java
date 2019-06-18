@@ -7,7 +7,7 @@ public class FireTower extends Tower {
     }
 
     @Override
-    public void attack() {
-
+    public Bullet attack() {
+        return new Bullet();
     }
 }
