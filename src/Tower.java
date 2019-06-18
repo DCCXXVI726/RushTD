@@ -3,7 +3,6 @@ public abstract class Tower {
     Position pos;
     int fireRate;
 
-    public void attack() {
-    }
+    public abstract void attack();
 
 }
