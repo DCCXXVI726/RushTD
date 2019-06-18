@@ -1,4 +1,4 @@
-public class Game {
+/*public class Game {
 	ArrayList<Enemy> enemies;
 	ArrayList<Tower> towers;
 	Cursor cursor;
@@ -13,4 +13,4 @@ public class Game {
 			
 		}
 	}
-}
+}*/
