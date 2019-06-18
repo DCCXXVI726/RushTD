@@ -1,5 +1,5 @@
-public class simpleEnemy extends Enemy {
-   simpleEnemy (double x, double y) {
+public class SimpleEnemy extends Enemy {
+   SimpleEnemy(double x, double y) {
         hp = 1000000;
         speed = -1000000;
         this.x = x;
