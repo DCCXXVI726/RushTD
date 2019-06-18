@@ -1,11 +1,10 @@
-public abstract class Bullet {
+public class Bullet {
     int damage;
     int speed;
     Position pos;
 
-    public abstract void move();
+    public void move(){}
 
-    public abstract boolean isHit();
-	
 	public abstract void explosion(ArrayList<Enemy> enemies);
+    public boolean isHit(){return true;}
 }
