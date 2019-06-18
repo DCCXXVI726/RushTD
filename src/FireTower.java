@@ -4,6 +4,7 @@ public class FireTower extends Tower {
         this.pos = pos;
         this.damage = 5;
         this.fireRate = fireRate;
+
     }
 
     @Override
