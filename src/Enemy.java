@@ -1,6 +1,9 @@
+import javax.swing.*;
+import java.awt.*;
+
 public abstract class Enemy {
-    int hp;
-    int speed;
-    double x, y;
-    public abstract int takeDamage(int damage);
+    Position pos;
+    Image image = new ImageIcon("vagina.png").getImage().getScaledInstance(
+            32, 32,  java.awt.Image.SCALE_SMOOTH);
+    public abstract void move();
 }

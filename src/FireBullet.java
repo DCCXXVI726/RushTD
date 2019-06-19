@@ -1,16 +1,14 @@
+import javax.swing.*;
+
 public class FireBullet extends Bullet {
-    public FireBullet(int damage, int speed, Position pos) {
-        this.damage = damage;
-        this.speed = speed;
+
+    public FireBullet(Position pos, int size) {
         this.pos = pos;
+        this.size = size;
     }
 
     @Override
-    public void move() {
-
-    }
-    @Override
-    public boolean isHit() {
-        return true;
+    public void move(){
+        pos.x += size;
     }
 }

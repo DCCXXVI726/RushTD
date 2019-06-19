@@ -1,12 +1,13 @@
+import javax.swing.*;
+
 public class SimpleEnemy extends Enemy {
-   SimpleEnemy(double x, double y) {
-        hp = 1000000;
-        speed = -1000000;
-        this.x = x;
-        this.y = y;
+
+    public SimpleEnemy(Position pos) {
+        this.pos = pos;
     }
+
     @Override
-    public int takeDamage(int damage) {
-        return hp - damage;
+    public void move() {
+       pos.x -= 32;
     }
 }
